@@ -65,4 +65,9 @@ public class Main {
                         num2 = scanner.nextDouble();
                         result = calculator.division(num1, num2);
                         break;
+                    case 5:
+                        System.out.print("Enter a number: ");
+                        num1 = scanner.nextDouble();
+                        result = calculator.square(num1);
+                        break;
                     
