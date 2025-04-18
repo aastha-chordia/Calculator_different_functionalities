@@ -26,7 +26,5 @@ public class Main {
             System.out.println("6. Cube");
             System.out.println("7. Square Root");
             System.out.println("8. Exit");
-            
-           
-        }
-    }
+             try {
+               
