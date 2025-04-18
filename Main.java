@@ -13,5 +13,8 @@ public class Main {
         CalculatorOperations calculator = new CalculatorOperations();
         
         System.out.println("Java Calculator");
+         
+        while (true) {
+            }
+        }
     }
-}
