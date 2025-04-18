@@ -27,4 +27,7 @@ public class Main {
             System.out.println("7. Square Root");
             System.out.println("8. Exit");
              try {
+                System.out.print("\nEnter your choice (1-8): ");
+                int choice = scanner.nextInt();
+                
                
