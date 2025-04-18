@@ -58,4 +58,11 @@ public class Main {
                         num2 = scanner.nextDouble();
                         result = calculator.multiplication(num1, num2);
                         break;
-                   
+                    case 4:
+                        System.out.print("Enter first number: ");
+                        num1 = scanner.nextDouble();
+                        System.out.print("Enter second number: ");
+                        num2 = scanner.nextDouble();
+                        result = calculator.division(num1, num2);
+                        break;
+                    
