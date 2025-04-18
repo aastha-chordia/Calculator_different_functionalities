@@ -35,5 +35,6 @@ public class Main {
                 }
                 double result = 0;
                 double num1, num2;
-                
+                switch (choice) {
+                 
                 
