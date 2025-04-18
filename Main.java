@@ -80,4 +80,7 @@ public class Main {
                         num1 = scanner.nextDouble();
                         result = calculator.squareRoot(num1);
                         break;
-                   
+                    default:
+                        System.out.println("Invalid choice! Please enter a number between 1 and 8.");
+                        continue;
+               
