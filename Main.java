@@ -70,4 +70,9 @@ public class Main {
                         num1 = scanner.nextDouble();
                         result = calculator.square(num1);
                         break;
-                    
+                    case 6:
+                        System.out.print("Enter a number: ");
+                        num1 = scanner.nextDouble();
+                        result = calculator.cube(num1);
+                        break;
+                   
