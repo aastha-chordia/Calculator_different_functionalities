@@ -33,5 +33,7 @@ public class Main {
                     System.out.println("Thank you for using the calculator. Goodbye!");
                     break;
                 }
+                double result = 0;
+                double num1, num2;
                 
-               
+                
