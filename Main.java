@@ -44,4 +44,11 @@ public class Main {
                         num2 = scanner.nextDouble();
                         result = calculator.addition(num1, num2);
                         break;
+                   case 2:
+                        System.out.print("Enter first number: ");
+                        num1 = scanner.nextDouble();
+                        System.out.print("Enter second number: ");
+                        num2 = scanner.nextDouble();
+                        result = calculator.subtraction(num1, num2);
+                        break;
                     
