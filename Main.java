@@ -75,4 +75,9 @@ public class Main {
                         num1 = scanner.nextDouble();
                         result = calculator.cube(num1);
                         break;
+                    case 7:
+                        System.out.print("Enter a number: ");
+                        num1 = scanner.nextDouble();
+                        result = calculator.squareRoot(num1);
+                        break;
                    
