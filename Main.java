@@ -83,4 +83,7 @@ public class Main {
                     default:
                         System.out.println("Invalid choice! Please enter a number between 1 and 8.");
                         continue;
-               
+                    }
+                
+                System.out.println("Result: " + result);
+            
