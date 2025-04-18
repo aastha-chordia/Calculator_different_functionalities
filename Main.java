@@ -86,4 +86,8 @@ public class Main {
                     }
                 
                 System.out.println("Result: " + result);
-            
+                     
+            } catch (InputMismatchException e) {
+                System.out.println("Invalid input! Please enter numbers only.");
+                scanner.next(); // Clear the invalid input
+           
