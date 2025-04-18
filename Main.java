@@ -37,4 +37,11 @@ public class Main {
                 double num1, num2;
                 switch (choice) {
                  
-                
+                   case 1:
+                        System.out.print("Enter first number: ");
+                        num1 = scanner.nextDouble();
+                        System.out.print("Enter second number: ");
+                        num2 = scanner.nextDouble();
+                        result = calculator.addition(num1, num2);
+                        break;
+                    
