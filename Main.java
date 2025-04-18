@@ -29,5 +29,9 @@ public class Main {
              try {
                 System.out.print("\nEnter your choice (1-8): ");
                 int choice = scanner.nextInt();
+                 if (choice == 8) {
+                    System.out.println("Thank you for using the calculator. Goodbye!");
+                    break;
+                }
                 
                
