@@ -92,4 +92,6 @@ public class Main {
                 scanner.next(); // Clear the invalid input
             } catch (ArithmeticException e) {
                 System.out.println("Error: " + e.getMessage());
+            } catch (IllegalArgumentException e) {
+                System.out.println("Error: " + e.getMessage());
             } 
