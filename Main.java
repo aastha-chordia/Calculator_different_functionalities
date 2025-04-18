@@ -90,4 +90,6 @@ public class Main {
             } catch (InputMismatchException e) {
                 System.out.println("Invalid input! Please enter numbers only.");
                 scanner.next(); // Clear the invalid input
-           
+            } catch (ArithmeticException e) {
+                System.out.println("Error: " + e.getMessage());
+            } 
